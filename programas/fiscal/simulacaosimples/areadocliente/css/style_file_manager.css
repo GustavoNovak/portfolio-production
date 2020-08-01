@@ -1,0 +1,90 @@
+#corpo_fm{
+	height:400px;
+	width:100%;
+	padding-left:50px;
+	padding-right:50px;
+	padding-top:50px;
+	background-color:#EEE;
+}
+#menu_fm{
+	display:flex;
+	height:50px;
+	width:100%;
+}
+#diretorio_fm{
+	display:flex;
+}
+#submenu_fm{
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	padding-left:30px;
+	padding-right:30px;
+	padding-bottom:18px;
+}
+.input_diretorio_fm{
+}
+.botao_diretorio_fm{
+	height:34px;
+	width:50px;
+	margin-left:10px;
+}
+#janelas_fm{
+	display:flex;
+}
+#arvore_fm{
+	border:1px solid #000;
+	height:100%;
+	padding:5px;
+	overflow-y: scroll
+}
+.spacer{
+	height:22px;
+	width:18px;
+}
+.pasta_com_fm,
+.pasta_sem_fm{
+	height:22px;
+	width:34px;
+}
+.nome_arvore_fm{
+	height:22px;
+	line-height:22px;
+	cursor:pointer;
+}
+.arvore_linha_fm{
+	overflow: hidden;
+}
+#janela_principal_fm{
+	border:1px solid #000;
+	height:100%;
+	padding:5px;
+	overflow-y: scroll
+}
+.arquivo_fm{
+	text-decoration:none;
+	cursor:pointer;
+	color:#000000;
+	display:flex;
+	height:30px;
+	overflow: hidden;
+}
+.arquivo_fm:hover{
+	text-decoration:none;
+	color:#000000;
+	background-color:blue;
+}
+.icone_fm{
+	height:30px;
+	width:30px;
+}
+.nome_fm{
+	line-height:30px;
+	padding-left:20px;
+	font-size:20px;
+}
+.modificacao_fm{
+	line-height:30px;
+	padding-left:20px;
+	font-size:20px;
+}

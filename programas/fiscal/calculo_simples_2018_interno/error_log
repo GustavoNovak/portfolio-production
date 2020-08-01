@@ -1,0 +1,37 @@
+[13-Aug-2019 14:15:26 America/Chicago] PHP Notice:  Undefined index: competencia in /home2/novak049/public_html/sistemas/programas/fiscal/calculo_simples_2018_interno/resultado.php on line 121
+[13-Aug-2019 14:15:26 America/Chicago] PHP Notice:  Undefined index: id in /home2/novak049/public_html/sistemas/programas/fiscal/calculo_simples_2018_interno/resultado.php on line 130
+[13-Aug-2019 14:15:26 America/Chicago] PHP Notice:  Undefined index: cod_empresa in /home2/novak049/public_html/sistemas/programas/fiscal/calculo_simples_2018_interno/resultado.php on line 130
+[13-Aug-2019 14:15:26 America/Chicago] PHP Notice:  Undefined index: id in /home2/novak049/public_html/sistemas/programas/fiscal/calculo_simples_2018_interno/resultado.php on line 134
+[13-Aug-2019 14:15:26 America/Chicago] PHP Notice:  Undefined index: cod_empresa in /home2/novak049/public_html/sistemas/programas/fiscal/calculo_simples_2018_interno/resultado.php on line 134
+[13-Aug-2019 14:15:26 America/Chicago] PHP Notice:  Undefined index: estados in /home2/novak049/public_html/sistemas/programas/fiscal/calculo_simples_2018_interno/resultado.php on line 155
+[13-Aug-2019 14:15:26 America/Chicago] PHP Notice:  Undefined index: faturamento in /home2/novak049/public_html/sistemas/programas/fiscal/calculo_simples_2018_interno/resultado.php on line 156
+[13-Aug-2019 14:15:26 America/Chicago] PHP Notice:  Undefined index: faturamento in /home2/novak049/public_html/sistemas/programas/fiscal/calculo_simples_2018_interno/resultado.php on line 161
+[13-Aug-2019 14:15:26 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home2/novak049/public_html/sistemas/programas/fiscal/calculo_simples_2018_interno/resultado.php on line 161
+[13-Aug-2019 14:15:26 America/Chicago] PHP Notice:  Undefined index: categorias in /home2/novak049/public_html/sistemas/programas/fiscal/calculo_simples_2018_interno/resultado.php on line 234
+[13-Aug-2019 14:15:26 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home2/novak049/public_html/sistemas/programas/fiscal/calculo_simples_2018_interno/resultado.php on line 234
+[13-Aug-2019 14:15:26 America/Chicago] PHP Notice:  Undefined index: id in /home2/novak049/public_html/sistemas/programas/fiscal/calculo_simples_2018_interno/faturamentos_anteriores.php on line 189
+[13-Aug-2019 14:15:26 America/Chicago] PHP Notice:  Undefined index: cod_empresa in /home2/novak049/public_html/sistemas/programas/fiscal/calculo_simples_2018_interno/faturamentos_anteriores.php on line 189
+[13-Aug-2019 14:15:26 America/Chicago] PHP Notice:  Undefined index: competencia in /home2/novak049/public_html/sistemas/programas/fiscal/calculo_simples_2018_interno/faturamentos_anteriores.php on line 196
+[13-Aug-2019 14:15:26 America/Chicago] PHP Notice:  Undefined index: competencia in /home2/novak049/public_html/sistemas/programas/fiscal/calculo_simples_2018_interno/faturamentos_anteriores.php on line 197
+[15-Aug-2019 08:51:37 America/Chicago] PHP Warning:  Division by zero in /home2/novak049/public_html/sistemas/programas/fiscal/calculo_simples_2018_interno/resultado.php on line 267
+[16-Aug-2019 14:09:18 America/Chicago] PHP Notice:  Undefined offset: 3 in /home2/novak049/public_html/sistemas/programas/fiscal/calculo_simples_2018_interno/faturamentos_anteriores.php on line 84
+[16-Aug-2019 14:09:18 America/Chicago] PHP Notice:  Undefined offset: 4 in /home2/novak049/public_html/sistemas/programas/fiscal/calculo_simples_2018_interno/faturamentos_anteriores.php on line 84
+[16-Aug-2019 14:09:18 America/Chicago] PHP Notice:  Undefined offset: 5 in /home2/novak049/public_html/sistemas/programas/fiscal/calculo_simples_2018_interno/faturamentos_anteriores.php on line 84
+[16-Aug-2019 14:09:18 America/Chicago] PHP Notice:  Undefined offset: 6 in /home2/novak049/public_html/sistemas/programas/fiscal/calculo_simples_2018_interno/faturamentos_anteriores.php on line 84
+[16-Aug-2019 14:09:18 America/Chicago] PHP Notice:  Undefined offset: 7 in /home2/novak049/public_html/sistemas/programas/fiscal/calculo_simples_2018_interno/faturamentos_anteriores.php on line 84
+[16-Aug-2019 14:09:18 America/Chicago] PHP Notice:  Undefined offset: 8 in /home2/novak049/public_html/sistemas/programas/fiscal/calculo_simples_2018_interno/faturamentos_anteriores.php on line 84
+[16-Aug-2019 14:09:18 America/Chicago] PHP Notice:  Undefined offset: 9 in /home2/novak049/public_html/sistemas/programas/fiscal/calculo_simples_2018_interno/faturamentos_anteriores.php on line 84
+[16-Aug-2019 14:09:18 America/Chicago] PHP Notice:  Undefined offset: 10 in /home2/novak049/public_html/sistemas/programas/fiscal/calculo_simples_2018_interno/faturamentos_anteriores.php on line 84
+[16-Aug-2019 14:09:18 America/Chicago] PHP Notice:  Undefined offset: 11 in /home2/novak049/public_html/sistemas/programas/fiscal/calculo_simples_2018_interno/faturamentos_anteriores.php on line 84
+[16-Sep-2019 13:05:21 America/Chicago] PHP Warning:  Division by zero in /home2/novak049/public_html/sistemas/programas/fiscal/calculo_simples_2018_interno/resultado.php on line 267
+[16-Sep-2019 13:05:21 America/Chicago] PHP Warning:  Division by zero in /home2/novak049/public_html/sistemas/programas/fiscal/calculo_simples_2018_interno/resultado.php on line 425
+[19-Sep-2019 09:20:17 America/Chicago] PHP Warning:  Division by zero in /home2/novak049/public_html/sistemas/programas/fiscal/calculo_simples_2018_interno/resultado.php on line 267
+[19-Sep-2019 09:20:17 America/Chicago] PHP Warning:  Division by zero in /home2/novak049/public_html/sistemas/programas/fiscal/calculo_simples_2018_interno/resultado.php on line 425
+[17-Oct-2019 15:33:56 America/Chicago] PHP Notice:  Undefined index: id in /home2/novak049/public_html/sistemas/programas/fiscal/calculo_simples_2018_interno/faturamentos_anteriores.php on line 189
+[17-Oct-2019 15:33:56 America/Chicago] PHP Notice:  Undefined index: cod_empresa in /home2/novak049/public_html/sistemas/programas/fiscal/calculo_simples_2018_interno/faturamentos_anteriores.php on line 189
+[17-Oct-2019 15:33:56 America/Chicago] PHP Notice:  Undefined index: competencia in /home2/novak049/public_html/sistemas/programas/fiscal/calculo_simples_2018_interno/faturamentos_anteriores.php on line 196
+[17-Oct-2019 15:33:56 America/Chicago] PHP Notice:  Undefined index: competencia in /home2/novak049/public_html/sistemas/programas/fiscal/calculo_simples_2018_interno/faturamentos_anteriores.php on line 197
+[23-Oct-2019 14:26:50 America/Chicago] PHP Notice:  Undefined index: id in /home2/novak049/public_html/sistemas/programas/fiscal/calculo_simples_2018_interno/faturamentos_anteriores.php on line 189
+[23-Oct-2019 14:26:50 America/Chicago] PHP Notice:  Undefined index: cod_empresa in /home2/novak049/public_html/sistemas/programas/fiscal/calculo_simples_2018_interno/faturamentos_anteriores.php on line 189
+[23-Oct-2019 14:26:50 America/Chicago] PHP Notice:  Undefined index: competencia in /home2/novak049/public_html/sistemas/programas/fiscal/calculo_simples_2018_interno/faturamentos_anteriores.php on line 196
+[23-Oct-2019 14:26:50 America/Chicago] PHP Notice:  Undefined index: competencia in /home2/novak049/public_html/sistemas/programas/fiscal/calculo_simples_2018_interno/faturamentos_anteriores.php on line 197

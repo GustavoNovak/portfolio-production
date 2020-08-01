@@ -1,0 +1,112 @@
+*{
+	font-family:Verdana;
+}
+body{
+	margin:0px;
+	background-color:#f1f2f7;
+}
+
+.topo{
+	height:200px;
+	width:100%;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+}
+.titulo1{
+	color:#869a9a;
+	font-size:35px;
+	font-family:fantasy;
+	text-align:center;
+}
+.titulo2{
+	padding-top:30px;
+	color:#c02d2d;
+	font-size:30px;
+	font-family:fantasy;
+	text-align:center;	
+}
+.corpo{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.formulario{
+	width:300px;
+	justify-content:center;
+	align-items:center;
+}
+
+.formulario_usuario{
+	background-color:#ffffff;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+.titulo_formulario{
+	height:60px;
+	background-color:#869a9a;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	color:#ffffff;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+}
+form{
+	text-align:center;
+	padding-top:20px;
+}
+input[type=text],
+input[type=password],
+input[type=email]{
+	height:35px;
+	width:270px;
+	padding-left:10px;
+	padding-right:10px;	
+	padding-top:15px;
+	padding-bottom:15px;
+	font-style:arial;
+	border-radius:5px;
+	border:1px #CCC solid;
+	outline:none;
+}
+input[type=text]:focus,
+input[type=password]:focus{
+	border-radius:5px;
+	border:1px #4cadc0 solid;
+}
+input[type=submit]{
+	height:50px;
+	width:270px;	
+	font-style:arial;
+	font-size:15px;
+	border-radius:5px;
+	border:none;
+	background-color:#c02d2d;
+	border:1px #db6f65 solid;
+	color:#ffffff;
+	cursor: pointer;
+}
+.usuario_nao_encontrado{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	font-size:11px;
+}
+.recuperar_senha{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	margin-bottom:10px;
+	font-size:13px;	
+	color:#4cadc0;
+	text-decoration:none;
+}
+.recuperar_senha a{
+	margin-bottom:5px;
+	font-size:13px;	
+	color:#4cadc0;
+	text-decoration:none;
+}

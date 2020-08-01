@@ -1,0 +1,167 @@
+.base_icones_menu{
+	height:249px;
+	padding: 7px 7px;
+}
+.icones_menu{
+	height:100%;
+	width:100%;
+	background-color:#0F1828;
+	display: -webkit-flex; /* NEW */
+	display:flex;
+	-webkit-flex-direction:column;
+	flex-direction:column;
+	-webkit-align-items: center;
+  	align-items: center;
+  	-webkit-justify-content: flex-end;
+  	justify-content: flex-end;	
+}
+.base_imagem_icone{
+	display: -webkit-flex; /* NEW */
+	display:flex;
+	-webkit-flex-direction:column;
+	flex-direction:column;
+  	-webkit-justify-content: center;
+  	justify-content: center;	
+  	height:80%;
+}
+.titulo_icones_menu{
+	width: 100%;
+	color: #FFFFFF;	
+	font-size: 18px;
+	font-family: gothic_negrito_novo;
+	height: 20px;
+	margin-bottom: 8px;
+}
+.mensagens{
+	background-image: url("../images/mensagem vermelho 31x31.png");
+	background-position:center;
+	background-size:cover;
+	display: -webkit-flex; /* NEW */
+	display:flex;
+	-webkit-align-items: center;
+  	align-items: center;
+  	-webkit-justify-content: center;
+  	justify-content: center;
+  	font-size:15px;
+  	padding-bottom:6px;
+	margin-top:18px;
+	margin-left:40px;
+	height:31px;
+	width:31px;
+	color:#FFFFFF;
+	cursor:pointer;
+}
+#nome_empresa{
+	color: #000000;
+	height:60px;
+	line-height:60px;
+	margin-left:10px;
+	font-size:20px;
+	font-family:gothic_novo;
+}
+#menu li{
+	font-size:13px;
+}
+#menu2 a{
+	font-family: quicksand_normal_novo;
+	text-decoration: none;
+	color:#021124;
+	transition: all 0.5s;
+	padding-left:10px;
+}
+#menu2 a:focus{
+	text-decoration: none;
+	color:#39637C;	
+}
+#menu2 a:hover{
+	text-decoration: none;
+	color:#39637C;	
+}
+#menu2{
+	height:100%;
+	width:0px;
+	transition:width 0.3s ease-out 0s;
+	position: fixed;
+  	left: 0;
+  	background-color:#FFF;
+  	z-index:999;
+  	overflow:hidden;
+}
+#menu2 li{	
+	height:50px;
+	width:200px;
+	padding-right:30px;
+	font-size:13px;
+	font-weight:900;
+	color:#021124;
+	border-bottom: 1px solid #CCC;
+	padding-left:5px;
+	z-index:999;
+	display: -webkit-flex; /* NEW */
+	display:flex;
+	-webkit-flex-direction:column;
+	flex-direction:column;
+  	-webkit-justify-content: center;
+  	justify-content: center;	
+}
+#menu2 ul{
+	list-style-type:none;
+	z-index:999;
+	padding:0px;
+}
+#escolher_empresa_base{
+	background-color:#FFFFFF;
+	position:absolute;
+	height:0px;
+	width:250px;
+	margin-top:59px;
+	margin-left:80px;
+	overflow:hidden;
+	transition:height 0.3s ease-in;
+}
+.escolher_empresa_base_2{
+	padding-left:20px;
+	width:100%;
+	height:30px;
+	margin-top:3px;
+	margin-bottom:3px;
+}
+.escolher_empresa_opcao{
+	cursor:pointer;
+	width:100%;
+	height:30px;
+	line-height:30px;
+	color:#000000;
+	font-family: gothic_novo;
+}
+.atendimento_online{	
+	display: -webkit-flex; /* NEW */
+	display:flex;
+	-webkit-flex-direction:row;
+	flex-direction:row;
+	-webkit-align-items: center;
+  	align-items: center;
+    	-webkit-justify-content: space-between;
+  	justify-content: space-between;
+	position:fixed;
+	bottom:0px;
+	right:0px;
+	height:50px;
+	width:450px;
+	padding-left:8px;
+	padding-right:12px;
+	background-color:#BC2012;
+	font-family: quicksand_normal_novo;
+	font-size:22px;
+	color:#FFFFFF;
+	cursor:pointer;
+	border-top-left-radius:15px;
+}
+@media (max-width:400px){
+	.mensagens{
+		margin-left:10px!important;
+	} 
+	.nome_empresa{
+		font-size:15px;
+	}
+}

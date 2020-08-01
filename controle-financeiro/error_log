@@ -1,0 +1,7 @@
+[26-Aug-2019 19:52:11 America/Chicago] PHP Notice:  Undefined index: id_conta in /home2/novak049/public_html/sistemas/controle-financeiro/controllers/ajaxController.php on line 224
+[26-Aug-2019 19:52:40 America/Chicago] PHP Notice:  Undefined index: id_conta in /home2/novak049/public_html/sistemas/controle-financeiro/controllers/ajaxController.php on line 224
+[26-Sep-2019 11:30:19 America/Chicago] PHP Notice:  Undefined index: id_conta in /home2/novak049/public_html/sistemas/controle-financeiro/controllers/ajaxController.php on line 224
+[26-Sep-2019 11:30:20 America/Chicago] PHP Notice:  Undefined index: id_conta in /home2/novak049/public_html/sistemas/controle-financeiro/controllers/ajaxController.php on line 224
+[26-Sep-2019 11:30:33 America/Chicago] PHP Notice:  Undefined index: id_conta in /home2/novak049/public_html/sistemas/controle-financeiro/controllers/ajaxController.php on line 224
+[30-Sep-2019 15:24:45 America/Chicago] PHP Notice:  Undefined index: id_conta in /home2/novak049/public_html/sistemas/controle-financeiro/controllers/ajaxController.php on line 224
+[14-Oct-2019 13:20:31 America/Chicago] PHP Notice:  A non well formed numeric value encountered in /home2/novak049/public_html/sistemas/controle-financeiro/models/Fundos.php on line 388

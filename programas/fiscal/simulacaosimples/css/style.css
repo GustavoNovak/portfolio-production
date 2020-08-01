@@ -1,0 +1,1163 @@
+::-webkit-input-placeholder {
+   color: #545454;
+}
+ 
+:-moz-placeh
+older { /* Firefox 18- */
+   color: #545454;
+}
+ 
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #545454;  
+}
+ 
+:-ms-input-placeholder {  
+   color: #545454; 
+}
+#load,
+#filtro_aviso {
+	opacity:1;
+	position: fixed;
+	background-color:#FFFFFF;
+	display: block;
+	z-index: 9999;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: -webkit-flex; /* NEW */
+	display:flex;
+	-webkit-flex-direction:column;
+	flex-direction:column;
+	-webkit-align-items: center;
+  	align-items: center;
+  	-webkit-justify-content: center;
+  	justify-content: center;
+  	transition: opacity 1s;
+}
+@font-face {
+     font-family: gothic_novo;
+     src: url('../font/GOTHIC.TTF');
+}
+@font-face {
+     font-family: gothic_negrito_novo;
+     src: url('../font/GOTHICB.TTF');
+}
+@font-face {
+     font-family: quicksand_normal_novo;
+     src: url('../font/Quicksand_Book_0.otf');
+}
+@font-face {
+     font-family: quicksand_bold_novo;
+     src: url('../font/Quicksand_Bold_0.otf');
+}
+body{
+	color:#021124;
+	font-family: gothic_negrito_novo, Arial;
+	cursor: default;
+	transition: all 0.5s;
+	padding-right:0px!important;
+}
+i:hover{
+	cursor:pointer;
+}
+#menu a{
+	font-family: quicksand_normal_novo;
+	text-decoration: none;
+	color:#021124;
+	transition: all 0.5s;
+}
+#menu a:focus{
+	text-decoration: none;
+	color:#39637C;	
+}
+#menu a:hover{
+	text-decoration: none;
+	color:#39637C;	
+}
+.row{
+	margin:0px;
+	padding:0px;
+}
+
+.isDisabled {
+  color: currentColor;
+  cursor: not-allowed;
+  opacity: 0.5;
+  text-decoration: none;
+}
+
+#background_menu{
+	line-height:60px;
+	height:60px;
+	background-color:#FFFFFF;
+	transition:background-color 0.6s ease-out 0s;
+	border:none;
+	border-bottom:1px solid #CCCCCC;
+	z-index:850;
+}
+.navbar-brand{
+	height:auto;
+}
+.menu-mobile{
+	margin-top:20px!important;
+	margin-right:40px;
+	-webkit-filter: drop-shadow(2px 2px 4px #000000);
+  	filter: drop-shadow(2px 2px 4px #000000);
+}
+.nome-empresa{
+	margin-top:20px!important;
+	margin-left:40px!important;
+	text-shadow: 2px 2px 4px #000000;
+}
+.menu-mobile:hover{
+	cursor:pointer;
+}
+.site{
+	display:flex;
+	flex-direction:column;
+}
+#menu-mobile{
+	transition:src 0.3s ease-out 0s;
+}
+#menu{
+	height:100%;
+	width:0px;
+	transition:width 0.3s ease-out 0s;
+	position: fixed;
+  	right: 0;
+  	background-color:#FFF;
+  	z-index:999;
+}
+#menu li{	
+	height:50px;
+	width:200px;
+	padding-left:30px;
+	font-size:15px;
+	font-weight:900;
+	color:#021124;
+	border-bottom: 1px solid #CCC;
+	padding-left:5px;
+	z-index:999;
+	display: -webkit-flex; /* NEW */
+	display:flex;
+	-webkit-flex-direction:column;
+	flex-direction:column;
+  	-webkit-justify-content: center;
+  	justify-content: center;	
+}
+.container{
+	transition:padding 0.3s ease-out 0s;
+	line-height:60px;
+	height:60px;
+}
+#menu ul{
+	list-style-type:none;
+	z-index:999;
+}
+#imagem_principal{
+	background-image: url("../images/HOME MAIS LEVE (1).jpg");
+	background-position:center;
+	background-size:cover;
+	display: -webkit-flex; /* NEW */
+	display:flex;
+	-webkit-align-items: center;
+  	align-items: center;
+  	-webkit-justify-content: center;
+  	justify-content: center;
+  	z-index:0;
+  	margin:0px;
+  	padding:0px;
+  	width:100%;
+}
+#imagem_principal #logo{
+	width:45%;
+}
+#imagem_principal #hashtag{
+	position:absolute;
+	right:0px;
+	bottom:5%;
+	transition:right 0.3s ease-out 0s;
+}
+.titulo{
+	font-size:22px;
+	background-color:#021124;
+	width:100%;
+	font-weight:bold;
+	color:#FFFFFF;
+	margin-top:7.5px;
+	margin-bottom:7.5px;
+	line-height:50px;
+	height:50px;
+}
+.titulo_inf{
+	font-size:18px;
+	background-color:#021124;
+	width:100%;
+	font-weight:bold;
+	color:#FFFFFF;
+	margin-top:0px;
+	margin-bottom:0px;
+	line-height:40px;
+	height:40px;
+}
+#servico1{
+	background-image: url("../images/1.1 - CONSULTORIA CONTÁBIL.jpg");
+}
+#servico1:hover #subtitulo_servico1,
+#servico1:hover #sub_subtitulo_servico1{
+	opacity:1;
+}
+#servico1:hover #filtro1{
+	opacity:0.7;
+}
+#servico1:hover #titulo1{
+	color:#FFFFFF;
+}
+#servico2{
+	background-image: url("../images/2.1 - CONSULTORIA MEI (NOVO).jpg");
+}
+#servico2:hover #subtitulo_servico2,
+#servico2:hover #sub_subtitulo_servico2{
+	opacity:1;
+}
+#servico2:hover #filtro2{
+	opacity:0.7;
+}
+#servico2:hover #titulo2{
+	color:#FFFFFF;
+}
+#servico3{
+	background-image: url("../images/3.1 - LEGALIZAÇÃO EMPRESAS NOVO.jpg");
+}
+#servico3:hover #subtitulo_servico3,
+#servico3:hover #sub_subtitulo_servico3{
+	opacity:1;
+}
+#servico3:hover #filtro3{
+	opacity:0.7;
+}
+#servico3:hover #titulo3{
+	color:#FFFFFF;
+}
+#servico4{
+	background-image: url("../images/4.1 - PLANEJAMENTO TRIBUTÁRIO.jpg");
+}
+#filtro4{
+	height:50%;
+}
+#servico4:hover #subtitulo_servico4,
+#servico4:hover #sub_subtitulo_servico4{
+	opacity:1;
+}
+#servico4:hover #filtro4{
+	opacity:0.7;
+}
+#servico4:hover #titulo4{
+	color:#FFFFFF;
+}
+#servico5{
+	background-image: url("../images/6.1 - DECLARAÇÃO IMPOSTO RENDA.jpg");
+}
+#servico5:hover #subtitulo_servico5,
+#servico5:hover #sub_subtitulo_servico5{
+	opacity:1;
+}
+#servico5:hover #filtro5{
+	opacity:0.7;
+}
+#servico5:hover #titulo5{
+	color:#FFFFFF;
+}
+#servico6{
+	background-image: url("../images/7.1 - AUDITORIA TRABALHISTA.jpg");
+}
+#servico6:hover #subtitulo_servico6,
+#servico6:hover #sub_subtitulo_servico6{
+	opacity:1;
+}
+#servico6:hover #filtro6{
+	opacity:0.7;
+}
+#servico6:hover #titulo6{
+	color:#FFFFFF;
+}
+#servico7{
+	background-image: url("../images/5.1 - CONSULTORIA EMPRESARIAL.jpg");
+}
+#servico7:hover #subtitulo_servico7,
+#servico7:hover #sub_subtitulo_servico7{
+	opacity:1;
+}
+#servico7:hover #filtro7{
+	opacity:0.7;
+}
+#servico7:hover #titulo7{
+	color:#FFFFFF;
+}
+.servico1{
+	
+}
+.servico2,
+.servico4{
+	background-color:green;
+	height:400px;
+}
+.servico3{
+	background-color:#AAAAAA;
+	height:200px;
+}
+.servico{
+	margin:0px;
+	padding:0px;
+	background-position:center;
+	background-size:cover;
+	display: -webkit-flex; /* NEW */
+	display:flex;
+	-webkit-flex-direction:column;
+	flex-direction:column;
+	-webkit-align-items: space-between;
+  	align-items: space-between;		
+}
+.filtro{
+	position:absolute;
+	height:100%;
+	width:100%;
+	background-color:#021124;
+	opacity:0;
+	transition: opacity 0.5s;
+	z-index:800;
+}
+.titulo6{
+	text-align:center;
+}
+.titulo_servico{
+	padding-top:15px;
+	padding-left:15px;
+	padding-right:15px;
+	font-family: gothic_negrito_novo;
+	font-size:17px;
+	font-weight:bold;
+	color:#021124;
+	transition: color 0.5s;
+	z-index:810;
+}
+.subtitulo_servico{
+	font-family: quicksand_normal_novo;
+	padding-left:15px;
+	padding-right:15px;
+	font-size:16px;
+	color:#FFFFFF;
+	opacity:0;
+	display: -webkit-flex; /* NEW */
+	display:flex;
+	-webkit-align-items: center;
+  	align-items: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	width:100%;
+	transition: opacity 0.5s;
+	z-index:810;
+}
+.sub_subtitulo_servico{
+	font-family: quicksand_normal_novo;
+	padding-bottom:15px;
+	padding-right:15px;
+	font-size:15px;
+	opacity:0;
+	transition: opacity 0.5s;
+	color:#A9BCD1;
+	z-index:810;
+}
+.modal_email{
+	width:100%;
+	font-family:gothic_novo;
+	font-size:17px;
+	line-height:25px;
+	color:#021124;
+	border:none!important;
+	border-radius:0px!important;
+	border-bottom:1px solid #021124!important;
+	background-color:transparent;
+	transition: border 0.3s ease-in;
+	margin-bottom:30px;
+}
+.modal_email:focus{
+	outline:none!important;
+	border-bottom:1px solid #21405E!important;	
+}
+.aviso_email_modal{
+	font-size:10px;
+}
+.modal_mensagem{
+	width:100%;
+	font-family:gothic_novo;
+	font-size:17px;
+	line-height:25px;
+	color:#021124;
+	padding-left:6px;
+	border:none;
+	border:1px solid #021124;
+	border-radius:5px;
+	background-color:transparent;
+	transition: border 0.3s ease-in;
+}
+.modal_mensagem:focus{
+	outline:none;
+	border:1px solid #21405E;
+}	
+.botao_modal{
+	margin-top:22px;
+	padding-left:35px;
+	padding-right:35px;
+	background-color:#BC2012;
+}
+.botao_modal:hover{
+	background-color:#7A1310;
+	border:none;
+}
+.botao_modal:focus{
+	background-color:#BC2012;
+	border:none;
+}
+#background_quemsomos{
+	background-image: url("../images/QUEM SOMOS AZUL NOVO 2 .jpg");
+	background-position:center;
+	background-size:cover;
+  	z-index:0;
+  	margin:0px;
+  	padding:0px;
+  	width:100%;	
+}
+.texto_quem_somos{
+	text-align:justify;
+	position:absolute;
+	bottom:0px;
+	padding:0px;
+	padding-bottom:26px;
+	padding-right:104px;
+	padding-left:26px;
+	color:#FFFFFF;
+	font-size:17px;
+	line-height:29.5px;
+	font-family: quicksand_normal_novo;
+}
+b{
+	font-weight:bold;
+}
+.filtro_mvv{
+	position:absolute;
+	margin:0px;
+	padding:0px;
+	width:100%;
+	z-index:1;	
+}
+#filtro_mvv1,
+#filtro_mvv2,
+#filtro_mvv3{
+	opacity:0.3;
+	background-color:#A9BCD1;
+}
+#filtro_missao,
+#filtro_visao,
+#filtro_valores{
+	opacity:0;
+	background-color:#BC2012;
+	z-index:1;
+	transition: opacity 0.8s;
+}
+#missao:hover #subtitulo_missao{
+	opacity:1;
+	z-index:3;
+}
+#missao:hover #filtro_missao{
+	opacity:0.6;
+}
+#visao:hover #subtitulo_visao{
+	opacity:1;
+	z-index:3;
+}
+#visao:hover #filtro_visao{
+	opacity:0.6;
+}
+#valores:hover #subtitulo_valores{
+	opacity:1;
+	z-index:3;
+}
+#valores:hover #filtro_valores{
+	opacity:0.6;
+}
+.titulo_mvv{
+	-webkit-flex: 10;
+	-ms-flex: 10;
+	flex: 10;
+	color:#FFFFFF;
+	font-family: gothic_negrito_novo,Arial;
+	font-size:20px;
+	line-height:20px;
+	padding:0px;
+	padding-top:13px;
+	padding-left:13px;
+	z-index:3;
+}
+.subtitulo_mvv{
+	font-family: quicksand_normal_novo;
+	font-size:17px;
+	color:#FFFFFF;
+	line-height:25px;
+	margin-right:9px;
+	margin-left:30px;
+	z-index:3;
+}
+#subtitulo_missao,
+#subtitulo_visao,
+#subtitulo_valores{
+	-webkit-flex: 10;
+	-ms-flex: 10;
+	flex: 10;
+	opacity:0;
+	transition: opacity 0.8s;
+	display: -webkit-flex; /* NEW */
+	display:flex;
+	-webkit-flex-direction:column;
+	flex-direction:column;
+	-webkit-justify-content: flex-end;
+	justify-content: flex-end;
+}
+#subtitulo_valores{
+	position:absolute;
+	bottom:10px;
+	right:0px;
+}
+#missao,
+#visao,
+#valores{
+	display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+	display: -ms-flexbox;  /* TWEENER - IE 10 */
+	display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+	display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+	display:flex;
+	-webkit-flex-direction:column;
+	flex-direction:column;
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+}
+#visao{
+	margin-top:7.5px;
+	margin-bottom:7.5px;
+}
+#valores{
+
+}
+.destaque{
+	margin:0px;
+	padding:0px;
+	background-position:center;
+	background-size:cover;
+	z-index:0;
+	display: -webkit-flex; /* NEW */
+	display:flex;
+	-webkit-flex-direction:column;
+	flex-direction:column;
+	-webkit-justify-content: space-between;
+	justify-content: space-between;	
+}
+
+#destaque1{
+	background-image: url("../images/01-GUSTAVO.jpg");
+}
+#destaque2{
+	background-image: url("../images/05-ALINE certa.jpg");
+}
+#destaque3{
+	background-image: url("../images/02-RODRIGO.jpg");
+}
+#destaque4{
+	background-image: url("../images/06-MURILO.jpg");
+}
+#destaque5{
+	background-image: url("../images/03-DANI certa.jpg");
+}
+#destaque6{
+	background-image: url("../images/04-AFONSO.jpg");
+}
+.filtro_destaque{
+	position:absolute;
+	margin:0px;
+	padding:0px;
+	z-index:1;
+	width:50%;	
+}
+#filtro_destaque3,
+#filtro_destaque4{
+	width:100%;
+}
+#filtro_destaque1,
+#filtro_destaque2,
+#filtro_destaque3,
+#filtro_destaque4,
+#filtro_destaque5,
+#filtro_destaque6{
+	opacity:0;
+	background-color:#BC2012;
+	z-index:1;
+	transition: opacity 0.8s;
+}
+#informacoes_destaque1,
+#informacoes_destaque2,
+#informacoes_destaque3,
+#informacoes_destaque4,
+#informacoes_destaque5,
+#informacoes_destaque6{
+	opacity:0;
+	transition: opacity 0.8s;
+}
+#destaque1:hover #informacoes_destaque1{
+	opacity:1;
+}
+#destaque1:hover #filtro_destaque1{
+	opacity:0.8;
+}
+#destaque2:hover #informacoes_destaque2{
+	opacity:1;
+}
+#destaque2:hover #filtro_destaque2{
+	opacity:0.8;
+}
+#destaque3:hover #informacoes_destaque3{
+	opacity:1;
+}
+#destaque3:hover #crc3{
+	opacity:1;
+}
+#destaque3:hover #filtro_destaque3{
+	opacity:0.8;
+}
+#destaque4:hover #informacoes_destaque4{
+	opacity:1;
+}
+#destaque4:hover #crc4{
+	opacity:1;
+}
+#destaque4:hover #filtro_destaque4{
+	opacity:0.8;
+}
+#destaque5:hover #informacoes_destaque5{
+	opacity:1;
+}
+#destaque5:hover #crc5{
+	opacity:1;
+}
+#destaque5:hover #filtro_destaque5{
+	opacity:0.8;
+}
+#destaque6:hover #informacoes_destaque6{
+	opacity:1;
+}
+#destaque6:hover #crc6{
+	opacity:1;
+}
+#destaque6:hover #oab6{
+	opacity:1;
+}
+#destaque6:hover #filtro_destaque6{
+	opacity:0.8;
+}
+.destaque_sup,
+.destaque_inf{
+	-webkit-flex: 10;
+	-ms-flex: 10;
+	flex: 10;
+	z-index:3;
+}
+.destaque_inf{
+	display: -webkit-flex; /* NEW */
+	display:flex;
+	-webkit-flex-direction:column;
+	flex-direction:column;
+	-webkit-justify-content: flex-end;
+	justify-content: flex-end;
+}
+.nome_funcionario{
+	font-family: gothic_negrito_novo,Arial;
+	color:#FFFFFF;
+	font-size:21px;
+	margin-top:5px;
+	margin-right:10px;
+	margin-left:10px;
+	margin-bottom:0px;
+	z-index:3;	
+}
+.profissao_funcionario{
+	font-family: quicksand_normal_novo;
+	font-size:17px;
+	line-height:24px;
+	text-align:center;
+	color:#FFFFFF;
+	height:auto;
+	margin:0px;
+	padding:0px;
+	padding-left:20px;
+	padding-right:20px;
+	width:100%;	
+}
+.cargo_funcionario{
+	font-family: quicksand_normal_novo;
+	font-size:17px;
+	line-height:24px;
+	text-align:center;
+	color:#FFFFFF;
+	height:auto;
+	margin:0px;
+	padding:0px;
+	padding-left:20px;
+	padding-right:20px;
+	width:100%;
+	font-weight:bold;	
+}
+#crc3,
+#crc4,
+#crc5{
+	opacity:0;
+	margin-bottom:0px;
+	text-align:right;
+	padding-right:10px;
+	transition: opacity 0.8s;
+}
+#crc6,
+#oab6{
+	opacity:0;
+	margin-bottom:0px;
+	text-align:left;
+	padding-right:10px;
+	padding-left:10px;
+	transition: opacity 0.8s;		
+}
+.contato_background{
+	background-image: url("../images/CONTATO.jpg");
+	background-position:center;
+	background-size:cover;
+	z-index:0;	
+}
+.container_contato{
+	padding-left:40px;
+}
+.descricao_contato{
+	font-family: gothic_novo;
+	font-size:18px;
+	line-height:25px;
+	color:#021124;
+	margin-top:43px;
+	margin-bottom:54px;
+	margin-left:40px;
+	padding-right:0px;
+	padding-left:0px;
+	max-width:712px;
+}
+@-webkit-keyframes autofill {
+    to {
+        color: #021124;
+        background: transparent;
+    }
+}
+
+input:-webkit-autofill {
+    -webkit-animation-name: autofill;
+    -webkit-animation-fill-mode: both;
+}
+.info_contato{
+	width:100%;
+	font-family:gothic_novo;
+	font-size:20px;
+	line-height:25px;
+	color:#021124;
+	border:none!important;
+	border-radius:0px!important;
+	border-bottom:2px solid #021124!important;
+	background-color:transparent;
+	transition: border 0.3s ease-in;
+}
+.info_contato:focus{
+	outline:none!important;
+	border-bottom:2px solid #21405E!important;	
+}
+.valido{
+	font-size:12px;
+	opacity:0;
+	height: 10px;
+    	position: absolute;
+    	line-height: 10px;
+    	margin-top: 5px;
+    	color: green;
+    	transition: opacity 0.5s ease-in;
+}
+.invalido{
+	font-family:gothic_novo;
+	font-size:12px;
+	opacity:0;
+	height: 10px;
+    	position: absolute;
+    	line-height: 10px;
+    	margin-top: 5px;
+    	color: #BC2012;
+    	transition: opacity 0.5s ease-in;
+}
+#email_invalido{
+	bottom:224px;
+}
+.container_mensagem{
+	line-height:0px;
+	min-height:300px;
+}
+.mensagem_contato{
+	width:100%;
+	font-family:gothic_novo;
+	font-size:20px;
+	line-height:25px;
+	color:#021124;
+	padding-left:6px;
+	border:none;
+	border:2px solid #021124;
+	border-radius:5px;
+	background-color:transparent;
+	transition: border 0.3s ease-in;
+}
+.mensagem_contato:focus{
+	outline:none;
+	border:2px solid #21405E;
+}
+.campos_obrigatorios{
+	width:100%;
+	font-family:gothic_novo;
+	font-size:15px;
+	color:#021124;
+	margin-top:8px;
+	height:10px;
+}
+.botao_contato{
+	font-family:gothic_novo;
+	font-size:20px;
+	line-height:25px;
+	color:#FFFFFF;
+	border:none;
+}
+.botao_anexar{
+	margin-top:42px;
+	width:100%;
+	margin-bottom:12px;
+	background-color:#354756;
+}
+.botao_anexar:hover{
+	background-color:#021124;
+	border:none;
+}
+.botao_anexar:focus{
+	background-color:#354756
+	border:none;
+}
+.botao_enviar{
+	float:right;
+	margin-top:22px;
+	padding-left:35px;
+	padding-right:35px;
+	background-color:#BC2012;
+}
+.botao_enviar:hover{
+	background-color:#7A1310;
+	border:none;
+}
+.botao_enviar:focus{
+	background-color:#BC2012;
+	border:none;
+}
+[hidden] {
+  display: none !important;
+}
+.rodape{
+	width:100%;
+	margin-top:7.5px;
+	background-image: url("../images/RODAPÉ com filtro.jpg")!important;
+	background-position:center;
+	background-size:cover;
+}
+.rodape_sup{
+	display: -webkit-flex; /* NEW */
+	display:flex;
+	-webkit-flex-direction:row;
+	flex-direction:row;
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+	margin:0px;
+}
+.rodape_sup_esquerdo{
+	width:auto;
+	margin-left:13px;
+	margin-top:10px;
+	margin-bottom:10px;
+	font-size:11px;
+	padding:0px;
+}
+.contato{
+	font-family: quicksand_normal_novo;
+	display: -webkit-flex; /* NEW */
+	display:flex;
+	-webkit-align-items: flex-start;
+  	align-items: flex-start;
+	-webkit-flex-direction:row;
+	flex-direction:row;	
+	margin-top:3px;
+	margin-bottom:3px;
+}
+.contato img{
+	width:13px;
+	margin-right:10px;
+}
+.contato a{
+	margin:0px;
+	padding:0px;
+	font-weight:350;
+	margin-top:2px;
+	color:#FFFFFF;
+	text-decoration:none;
+	border:none;
+}
+.contato a:focus{
+	text-decoration:none;
+	border:none;
+	color:#FFFFFF;
+}
+.contato p{
+	margin:0px;
+	padding:0px;
+	font-weight:350;
+	margin-top:2px;
+	color:#FFFFFF;
+}
+.contato p:focus{
+	text-decoration:none;
+	border:none;
+	color:#FFFFFF;
+}
+.rodape_sup_direito{
+	margin:0px;
+	font-size:12px;
+	margin-top:10px;
+	width:100%;
+	font-weight:900;
+	margin-right:20px;
+	text-shadow: 0.5px 0.5px 2px #777777;
+	display: -webkit-flex; /* NEW */
+	display:flex;
+	-webkit-flex-direction:row;
+	flex-direction:row;
+	-webkit-justify-content:space-around;
+	justify-content:space-around;
+	margin-bottom:20px;
+	color:#FFFFFF;
+}
+.menu_rodape{
+	font-family: quicksand_normal_novo;
+	display: -webkit-flex; /* NEW */
+	display:flex;
+	-webkit-justify-content:center;
+	justify-content:center;
+}
+.botao_menu_rodape{
+	height:18px;
+	color:#FFFFFF;
+	transition: all 0.5s;
+}
+.botao_menu_rodape:hover{
+	height:18px;
+	padding-left:5px;
+	padding-right:5px;
+	background-color:#FFFFFF;
+	color:#BC2012;
+	border-radius:5px;
+}
+.botao_menu_rodape:focus{
+	color:#FFFFFF;
+}
+.rodape_inf{
+	border-top:1px solid #FFFFFF;
+	padding-top:5px;
+	padding-bottom:5px;
+	width:100%;
+	margin:0px;
+
+}
+.criadores{
+	font-family: quicksand_normal_novo;
+	width:100%;
+	font-size:10px;
+	display: -webkit-flex; /* NEW */
+	display:flex;
+	-webkit-align-items: flex-end;
+  	align-items: flex-end;
+	-webkit-flex-direction:column;
+	flex-direction:column;
+	padding-right:13px;
+	line-height:15px;
+}
+
+@media (max-width:768px){
+	.rodape_sup_direito{
+		display:none;
+	}
+	.texto_quem_somos{
+		text-align:center;
+		padding-bottom:15px;
+		padding-right:15px;
+		padding-left:15px;
+		color:#FFFFFF;
+		font-size:14px;
+		line-height:24px;
+		font-family: quicksand_normal_novo;
+	}
+	.subtitulo_mvv{
+		font-size:16px;
+		line-height:24px;
+		margin-left:9px;
+		margin-bottom:15px;
+		z-index:2;
+	
+	}
+	.nome_funcionario{
+		font-family: gothic_negrito_novo,Arial;
+		color:#FFFFFF;
+		font-size:15px;
+		margin-top:5px;
+		margin-right:10px;
+		margin-left:10px;
+		margin-bottom:0px;
+		z-index:3;	
+	}
+	.profissao_funcionario{
+		font-family: quicksand_normal_novo;
+		font-size:14px;
+		line-height:20px;
+		text-align:center;
+		color:#FFFFFF;
+		height:auto;
+		margin:0px;
+		padding:0px;
+		padding-left:20px;
+		padding-right:20px;
+		width:100%;	
+	}
+	.cargo_funcionario{
+		font-family: quicksand_normal_novo;
+		font-size:14px;
+		line-height:20px;
+		text-align:center;
+		color:#FFFFFF;
+		height:auto;
+		margin:0px;
+		padding:0px;
+		padding-left:20px;
+		padding-right:20px;
+		width:100%;
+		font-weight:bold;	
+	}
+	.info_contato{
+		font-size:17px;
+	}
+}
+@media (max-width:700px){
+	#filtro4{
+		height:33.333%;
+	}
+	#titulo1,
+	#titulo3,
+	#titulo5,
+	#titulo7{
+		text-align:left!important;
+	}
+	#titulo2,
+	#titulo4,
+	.titulo6{
+		text-align:right!important;;
+	}
+	
+}
+@media (max-width:768px){
+	.navbar-header{
+		display:none;
+	}
+	#imagem_principal #logo{
+		width:80%;
+	}
+	
+
+}
+@media (max-width:500px){
+	#menu li{	
+		height:45px;
+		width:200px;
+		font-size:10px;
+	}
+	
+	.descricao_contato{
+		font-family: gothic_novo;
+		font-size:16px;
+		line-height:25px;
+		color:#021124;
+		margin-top:20px;
+		margin-bottom:25px;
+		margin-left:0px;
+		padding-left:0px;
+		max-width:712px;
+	}
+	.container_contato{
+		padding-left:15px;
+		padding-right:15px;
+	}
+	.container_info_contato{
+		padding-left:0px;
+		padding-right:0px;
+		padding-bottom:20px;
+	}
+	
+	#email_invalido{
+		bottom:224px;
+	}
+	.container_mensagem{
+		padding-right:0px;
+		padding-left:0px;
+	}
+	.mensagem_contato{
+		width:100%;
+		font-family:gothic_novo;
+		font-size:17px;
+		line-height:25px;
+		color:#021124;
+		padding-left:6px;
+		border:none;
+		border:2px solid #021124;
+		border-radius:5px;
+		background-color:transparent;
+		transition: border 0.3s ease-in;
+	}
+	.botao_enviar{
+		width:100%;
+		background-color:#BC2012;
+	}
+}
+
+@media (max-width:400px){
+	.menu-mobile{
+		margin-right:10px!important;
+	} 
+	.nome-empresa{
+		margin-left:10px!important;
+	}
+	.subtitulo_mvv{
+		text-align:right;
+		font-size:16px;
+		line-height:24px;
+		margin-left:9px;
+		margin-bottom:15px;
+		z-index:2;
+	
+	}
+}
