@@ -252,9 +252,7 @@ if(isset($_POST['faturamento_categoria']) && !empty($_POST['faturamento_categori
 							$parametros_anexo = $sql->fetch();
 										
 							$aliq_n = $parametros_anexo['aliquota_nominal'];
-							var_dump($aliq_n);
 							$VD = $parametros_anexo['valor_deduzir'];
-							var_dump($VD);
 							$aliq = array(
 									"irpj" => $parametros_anexo['irpj'],
 									"csll" => $parametros_anexo['csll'],
@@ -267,7 +265,6 @@ if(isset($_POST['faturamento_categoria']) && !empty($_POST['faturamento_categori
 								);
 
 							$simples_tot = ($RBT12*$aliq_n - $VD)/$RBT12;
-							var_dump($simples_tot);
 
 							$sql = "SELECT irpj, csll, cofins, pis, cpp, ipi, iss, icms FROM categorias WHERE id='".$categoria_parametros['id']."'";
 							$sql = $db->query($sql);
@@ -284,8 +281,6 @@ if(isset($_POST['faturamento_categoria']) && !empty($_POST['faturamento_categori
 							}
 
 							$simples_par = $simples_tot*(1-$soma_aliq);
-							var_dump($simples_par);
-
 						//-----------------------------
 
 						//Cálculo com fator R
@@ -302,8 +297,6 @@ if(isset($_POST['faturamento_categoria']) && !empty($_POST['faturamento_categori
 								//---------------
 
 								$fator_R = $soma_folha/$RBT12;
-								var_dump($anexo);
-								var_dump($fator_R);
 							//-----------------
 								if($anexo == 3 && $fator_R >= 0.28){
 									$anexo_novo = 3;
@@ -314,14 +307,11 @@ if(isset($_POST['faturamento_categoria']) && !empty($_POST['faturamento_categori
 										$anexo_novo = 5;
 									}
 								}
-								
-								var_dump($anexo_novo);
 
 								$sql = "SELECT * FROM anexos_nacionais WHERE id_anexo='".$anexo_novo."' AND faixa='".$faixa."'";
 								$sql = $db->query($sql);
 
 								$parametros_anexo_novo = $sql->fetch();
-								var_dump($parametros_anexo_novo);
 								
 								$aliq_n_novo = $parametros_anexo_novo['aliquota_nominal'];
 								$VD_novo = $parametros_anexo_novo['valor_deduzir'];	
