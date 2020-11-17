@@ -44,7 +44,7 @@ if(isset($_POST['user_name']) && !empty($_POST['user_name'])){
 <html>
 
 	<head>
-		<title>Cálculo de simples 2018</title>
+		<title>Cálculo de simples</title>
 		<link rel="icon" href="assets/images/logo novak.ico" type="image/x-icon" />
 		<link rel="shortcut icon" href="assets/images/logo novak.ico" type="image/x-icon" />
 		<meta name="viewport" content="width=device-width,user-scalable=0"/>
@@ -54,8 +54,8 @@ if(isset($_POST['user_name']) && !empty($_POST['user_name'])){
 	<body>
 
 		<div class="topo">
-			<img src="assets/images/logo com slogan vertical.png" width="300px"/>
-			<div class="titulo2">SIMPLES 2018</div>
+			<img src="assets/images/logo com slogan vertical.png" width="200px"/>
+			<div class="titulo2">SIMPLES</div>
 		</div>
 
 		<div class="corpo">
