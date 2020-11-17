@@ -315,6 +315,7 @@ if(isset($_POST['faturamento_categoria']) && !empty($_POST['faturamento_categori
 								} else {
 									$anexo_novo = 5;
 								}
+								var_dump($anexo_novo);
 
 								$sql = "SELECT * FROM anexos_nacionais WHERE id_anexo='".$anexo_novo."' AND faixa='".$faixa."'";
 								$sql = $db->query($sql);
