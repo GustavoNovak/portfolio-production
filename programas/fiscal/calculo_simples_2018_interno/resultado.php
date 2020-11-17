@@ -111,7 +111,7 @@ if(isset($_POST['faturamento_categoria']) && !empty($_POST['faturamento_categori
 
 				//Registrando faturamento na competância
 
-					$dsn = "mysql:dbname=calculo_simples;host=localhost";
+					$dsn = "mysql:dbname=simples_nacional_interno;host=localhost";
 					$dbuser = "admin";
 					$dbpass = "admin";
 
