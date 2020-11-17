@@ -302,6 +302,7 @@ if(isset($_POST['faturamento_categoria']) && !empty($_POST['faturamento_categori
 								//---------------
 
 								$fator_R = $soma_folha/$RBT12;
+								var_dump($fator_R);
 							//-----------------
 								if($anexo == 3 && $fator_R >= 0.28){
 									$anexo_novo = 3;
