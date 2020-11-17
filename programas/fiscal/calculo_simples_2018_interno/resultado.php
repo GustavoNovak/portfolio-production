@@ -308,13 +308,13 @@ if(isset($_POST['faturamento_categoria']) && !empty($_POST['faturamento_categori
 								if($anexo == 3 && $fator_R >= 0.28){
 									$anexo_novo = 3;
 								} else {
-									$anexo_novo = 5;
+									if($anexo == 5 && $fator_R >= 0.28){
+										$anexo_novo = 3;
+									} else {
+										$anexo_novo = 5;
+									}
 								}
-								if($anexo == 5 && $fator_R >= 0.28){
-									$anexo_novo = 3;
-								} else {
-									$anexo_novo = 5;
-								}
+								
 								var_dump($anexo_novo);
 
 								$sql = "SELECT * FROM anexos_nacionais WHERE id_anexo='".$anexo_novo."' AND faixa='".$faixa."'";
